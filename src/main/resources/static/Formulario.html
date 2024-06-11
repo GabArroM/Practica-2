@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/EstilosPrincipales.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+    <headear class ="EncabezadoPrincipal" ">
+        <h1>OceanoVivoCr</h1>
+    </headear>
+
+    <div id ="imagenLogo" >
+        <img src="https://th.bing.com/th/id/OIP.fEGpydAwaVF5kyl2TczgygHaH5?w=198&h=212&c=7&r=0&o=5&pid=1.7" alt="TortugaLogo" width="50"/>
+    </div>
+
+    <nav id ="menu">
+        <a href="index.html">Inicio</a>
+        <a href="SobreNosotros.htlm.html" style>Sobre Nosotros</a>
+        <a href="Flora.html">Flora</a>
+        <a href="Fauna.html">Fauna</a>
+        <a href="Noticias.html">Noticias</a>
+    </nav>
+
+    <section id="contenidoPrincipal"style="left: 0%; width: 100%;">
+
+        <div class="ArticulosInformativos" style="margin-top: 2%;height: 98%; width: 40%;">
+
+            <h2 style="padding-left: 20px;line-height: 40px;text-align: center;font-size: 50px;">Formulario</h2>
+
+
+            <form action="#" class="parrafosInfo" style="text-align: center">
+                <h3>Datos personales y preguntas</h3>
+
+                <label>Nombre </label><input type="text" name="text" placeholder="Nombre" size="50"><br><br>
+
+                <label>Apellidos </label><input type="text" name="text" placeholder="Apellidos" size="50"><br><br>
+
+                <label>Email </label><input type="email" name="email" placeholder="Email" size="50"><br><br>
+
+                <label>Provincia </label><select>
+                    <option value="1">San Jose</option>
+                    <option value="2">Heredia</option>
+                    <option value="3">Cartago</option>
+                    <option value="4">Limon</option>
+                    <option value="5">Puntarenas</option>
+                    <option value="6">Alajuela</option>
+                    <option value="7">Guanacaste</option>
+
+                </select>
+                <label>Edad </label><input type="range" value="0" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                <output>1</output><br>
+
+
+
+                <label style="padding-top: 25px;font-size: 18px;">Opinion sobre los mares de costa Rica</label><textarea name="Ejemplo" rows="5" cols="50" placeholder="Texto aqui"></textarea><br>
+                <label>Mejor soluccion</label><br>
+                
+                <span style="font-size: 15px;">
+                <label>Reducción del uso de plásticos </label><input type="radio" name="Solucion1" value="Valor1"><br>
+                <label>Gestión adecuada de residuos </label><input type="radio" name="Solucion2" value="Valor2"><br>
+                <label>Fomento de la educación y la sensibilización </label><input type="radio" name="Solucion3" value="Valor3"><br>
+                </span>
+                <br>
+
+                <input type="reset" name="reset" value="Limpiar">
+
+                <input type="submit" value="Submit"><br>
+                <label style="font-size: 15px;color:blue;">Terminos y condiciones</label> <input type="checkbox" name="checkbox"><br>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <footer id="Finalpagina">
+
+        Derechos reservados &copy;2024 para <br>
+        Gabriel Arroyo Matamoros
+
+
+    </footer>
+</body>
+</html>
